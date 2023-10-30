@@ -17,6 +17,7 @@ function GuessInput() {
         id="guess-input"
         type="text"
         pattern="[a-zA-Z]{5}"
+        title="5 letter word"
         maxLength="5"
         value={guess}
         required={true}
