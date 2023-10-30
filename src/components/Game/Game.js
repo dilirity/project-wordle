@@ -17,10 +17,7 @@ function Game() {
   function addGuess(guess) {
     const newGuesses = [
       ...guesses,
-      {
-        label: guess,
-        id: Math.random(),
-      },
+      guess,
     ];
 
     setGuesses(newGuesses);
